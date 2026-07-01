@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<section id="heroCarousel" style="position: relative;">
+    <nav id="mynav" class="navbar navbar-expand-lg bg-body-tertiary"
+        style="position: absolute; top: 0; left: 0; width: 100%; z-index: 10;">
+        <div class="container-fluid">
+            <a id="viajesChile" class="navbar-brand" href="#">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="fondoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#fondoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#fondoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+<section id="quienesSomos" class="container-fluid py-5">
+    <h2 class="seccion-titulo text-center">¿Quiénes somos?</h2>
+    <hr class="seccion-linea">
+    <div class="row g-4 px-4 mt-2">
+        <div class="col-12 col-lg-4">
+            <div class="quienes-icono">
+                <i class="fa-solid fa-plane"></i>
+            </div>
+            <p class="quienes-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla.
+                Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor
+                euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed
+                diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus
+                lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa
+                pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        </div>
+        <div class="col-12 col-lg-4">
+            <p class="quienes-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla.
+                Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor
+                euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed
+                diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus
+                lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa
+                pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+            <div class="quienes-icono">
+                <i class="fa-solid fa-mountain"></i>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="quienes-icono">
+                <i class="fa-solid fa-route"></i>
+            </div>
+            <p class="quienes-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla.
+                Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor
+                euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed
+                diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus
+                lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa
+                pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        </div>
+    </div>
+</section>
+
+<section id="destacados" class="container-fluid py-5">
+    <h2 class="seccion-titulo text-center">Destacados</h2>
+    <hr class="seccion-linea">
+    <div class="row g-4 px-4 mt-2">
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="destacado-card">
+                <img src="assets/img/card1.jpg" class="destacado-img" alt="Torres del Paine">
+                <div class="destacado-body">
+                    <h3 class="destacado-titulo">Lorem ipsum dolor sit amet</h3>
+                    <p class="destacado-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="destacado-card">
+                <img src="assets/img/card2.jpg" class="destacado-img" alt="Salar reflejo">
+                <div class="destacado-body">
+                    <h3 class="destacado-titulo">Consectetur adipisicing elit</h3>
+                    <p class="destacado-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="destacado-card">
+                <img src="assets/img/card3.jpg" class="destacado-img" alt="Costa">
+                <div class="destacado-body">
+                    <h3 class="destacado-titulo">Sed do eiusmod tempor incididunt ut labore</h3>
+                    <p class="destacado-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="destacado-card">
+                <img src="assets/img/card4.jpg" class="destacado-img" alt="Bosque">
+                <div class="destacado-body">
+                    <h3 class="destacado-titulo">Ut enim ad minim veniam</h3>
+                    <p class="destacado-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="container-fluid seccion-wrap py-5">
+    <h2 class="seccion-titulo text-center">Contacto</h2>
+    <hr class="seccion-linea">
+    <div class="row mt-2">
+        <div style="margin: 0 auto;" class="col-12 col-lg-8">
+            <form id="formContacto">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label contacto-label">Nombre</label>
+                    <input type="text" class="form-control contacto-input" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="asunto" class="form-label contacto-label">Asunto</label>
+                    <input type="text" class="form-control contacto-input" id="asunto" name="asunto" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label contacto-label">Mensaje</label>
+                    <textarea class="form-control contacto-input" id="mensaje" name="mensaje" rows="6"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container-fluid">
+        <div class="row align-items-center py-4 px-4">
+            <div class="col-6">
+                <span class="footer-marca">Viajes Chile</span>
+            </div>
+            <div class="col-6 text-end">
+                <a href="#" class="footer-icono" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="footer-icono" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="footer-icono" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="footer-icono" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
